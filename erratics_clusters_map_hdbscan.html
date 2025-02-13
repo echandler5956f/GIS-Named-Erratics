@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b58d66dfe1911be0e3ff625a4587f7bd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b58d66dfe1911be0e3ff625a4587f7bd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b58d66dfe1911be0e3ff625a4587f7bd = L.map(
+                "map_b58d66dfe1911be0e3ff625a4587f7bd",
+                {
+                    center: [40.48234285714286, -96.50942857142857],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7d43dab87d445c10b2b4254cd0ecf8cf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7d43dab87d445c10b2b4254cd0ecf8cf.addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+            var circle_marker_81ca05567c5ad796844db2101436aeb9 = L.circleMarker(
+                [43.659, -70.256],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_c88537400565031434035889be932417 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a981d31a9dfa20ab76c03ca9abb4f8a8 = $(`<div id="html_a981d31a9dfa20ab76c03ca9abb4f8a8" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 0<br>         <b>Top Terms:</b> route, diary, marker, crossing, served, navigation, early, fort, mention, resting<br>         <b>Description:</b> This erratic served as a guidepost for travelers along a major trade route in colonial times.         </div>`)[0];
+                popup_c88537400565031434035889be932417.setContent(html_a981d31a9dfa20ab76c03ca9abb4f8a8);
+            
+        
+
+        circle_marker_81ca05567c5ad796844db2101436aeb9.bindPopup(popup_c88537400565031434035889be932417)
+        ;
+
+        
+    
+    
+            var circle_marker_ad798862b76004bc3fce79902386fecb = L.circleMarker(
+                [41.881, -87.623],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_2cfaa3caa703cacf191b9aaa75b0dde4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_31152483ee81c093d08aa8fc8e0ecd99 = $(`<div id="html_31152483ee81c093d08aa8fc8e0ecd99" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 2<br>         <b>Top Terms:</b> glacial, historical, geological, reference, farmland, field, usage, near, reported, rest<br>         <b>Description:</b> No historical usage reported, but it rests in a glacial field near farmland.         </div>`)[0];
+                popup_2cfaa3caa703cacf191b9aaa75b0dde4.setContent(html_31152483ee81c093d08aa8fc8e0ecd99);
+            
+        
+
+        circle_marker_ad798862b76004bc3fce79902386fecb.bindPopup(popup_2cfaa3caa703cacf191b9aaa75b0dde4)
+        ;
+
+        
+    
+    
+            var circle_marker_97a467828be3f03f6e2b3f790182ce2b = L.circleMarker(
+                [44.977, -93.265],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_592c0471c7b2d8cb08bf64cf1b57db03 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b7c6e4384a54185e57e4af1bcff1d74 = $(`<div id="html_3b7c6e4384a54185e57e4af1bcff1d74" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Local folklore claims the stone offers spiritual protection; pilgrims often left small offerings.         </div>`)[0];
+                popup_592c0471c7b2d8cb08bf64cf1b57db03.setContent(html_3b7c6e4384a54185e57e4af1bcff1d74);
+            
+        
+
+        circle_marker_97a467828be3f03f6e2b3f790182ce2b.bindPopup(popup_592c0471c7b2d8cb08bf64cf1b57db03)
+        ;
+
+        
+    
+    
+            var circle_marker_ad03f250e642767220fd57a009c2e632 = L.circleMarker(
+                [39.739, -104.99],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_8cd79c84fa935bec04a98378a3c3fc52 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b52558dcf2030e3b77623f473edfdc8 = $(`<div id="html_5b52558dcf2030e3b77623f473edfdc8" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> An enormous boulder used by early military surveyors to demarcate territory lines.         </div>`)[0];
+                popup_8cd79c84fa935bec04a98378a3c3fc52.setContent(html_5b52558dcf2030e3b77623f473edfdc8);
+            
+        
+
+        circle_marker_ad03f250e642767220fd57a009c2e632.bindPopup(popup_8cd79c84fa935bec04a98378a3c3fc52)
+        ;
+
+        
+    
+    
+            var circle_marker_7ee17945457b8ebd38441a5f4b2e6b92 = L.circleMarker(
+                [42.36, -71.058],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_2ddafe680f92338231ffe79afa4b5996 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_52db4a4ac51c79562523b383f66bef1e = $(`<div id="html_52db4a4ac51c79562523b383f66bef1e" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 0<br>         <b>Top Terms:</b> route, diary, marker, crossing, served, navigation, early, fort, mention, resting<br>         <b>Description:</b> Some diaries mention this as a resting spot on the route to the western forts.         </div>`)[0];
+                popup_2ddafe680f92338231ffe79afa4b5996.setContent(html_52db4a4ac51c79562523b383f66bef1e);
+            
+        
+
+        circle_marker_7ee17945457b8ebd38441a5f4b2e6b92.bindPopup(popup_2ddafe680f92338231ffe79afa4b5996)
+        ;
+
+        
+    
+    
+            var circle_marker_73b56bde49a368ae626c71107c656517 = L.circleMarker(
+                [45.523, -122.676],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_275e7e84212425a47e95cda8f4f95c15 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97e69704af1e3fdd36e1ed2d13479688 = $(`<div id="html_97e69704af1e3fdd36e1ed2d13479688" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 0<br>         <b>Top Terms:</b> route, diary, marker, crossing, served, navigation, early, fort, mention, resting<br>         <b>Description:</b> Described in exploration logs as an important navigation marker along the main river crossing.         </div>`)[0];
+                popup_275e7e84212425a47e95cda8f4f95c15.setContent(html_97e69704af1e3fdd36e1ed2d13479688);
+            
+        
+
+        circle_marker_73b56bde49a368ae626c71107c656517.bindPopup(popup_275e7e84212425a47e95cda8f4f95c15)
+        ;
+
+        
+    
+    
+            var circle_marker_340d8f3d42287f06ad5bc8c87937193f = L.circleMarker(
+                [34.052, -118.244],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_e766efdfd53f4df8fac034ec65bb77ea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b5cd36f6731fa552cf487088d1155a99 = $(`<div id="html_b5cd36f6731fa552cf487088d1155a99" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> Tourists noted strange markings on this rock, but there's no official record of usage.         </div>`)[0];
+                popup_e766efdfd53f4df8fac034ec65bb77ea.setContent(html_b5cd36f6731fa552cf487088d1155a99);
+            
+        
+
+        circle_marker_340d8f3d42287f06ad5bc8c87937193f.bindPopup(popup_e766efdfd53f4df8fac034ec65bb77ea)
+        ;
+
+        
+    
+    
+            var circle_marker_6e310825679ed35540a604006b385e8f = L.circleMarker(
+                [39.297, -120.661],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_6e33d98cc58ac9f4f9a793a71a10d8f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_34f00126886641abffad67ce42f3f181 = $(`<div id="html_34f00126886641abffad67ce42f3f181" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> A massive granite block near an old gold rush trail, occasionally mentioned in miner journals.         </div>`)[0];
+                popup_6e33d98cc58ac9f4f9a793a71a10d8f5.setContent(html_34f00126886641abffad67ce42f3f181);
+            
+        
+
+        circle_marker_6e310825679ed35540a604006b385e8f.bindPopup(popup_6e33d98cc58ac9f4f9a793a71a10d8f5)
+        ;
+
+        
+    
+    
+            var circle_marker_36e0d8d84ce528ea1a938df69b08e397 = L.circleMarker(
+                [48.428, -123.364],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_4de072036114858f13ddb0dca703c924 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4e4f3bdfa30bec2dc1d4ffdb5942c29e = $(`<div id="html_4e4f3bdfa30bec2dc1d4ffdb5942c29e" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Revered by local Indigenous communities; featured in numerous ceremonial accounts.         </div>`)[0];
+                popup_4de072036114858f13ddb0dca703c924.setContent(html_4e4f3bdfa30bec2dc1d4ffdb5942c29e);
+            
+        
+
+        circle_marker_36e0d8d84ce528ea1a938df69b08e397.bindPopup(popup_4de072036114858f13ddb0dca703c924)
+        ;
+
+        
+    
+    
+            var circle_marker_57a4ca53ead119ce0edacf194e0f8e3d = L.circleMarker(
+                [40.44, -79.996],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_2da8f7cda287dded71b4dbef863f2d65 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b20881baddda72b054fa108f859e0c7c = $(`<div id="html_b20881baddda72b054fa108f859e0c7c" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Reinforced with metal rods during the 1800s; possibly used for boundary surveys.         </div>`)[0];
+                popup_2da8f7cda287dded71b4dbef863f2d65.setContent(html_b20881baddda72b054fa108f859e0c7c);
+            
+        
+
+        circle_marker_57a4ca53ead119ce0edacf194e0f8e3d.bindPopup(popup_2da8f7cda287dded71b4dbef863f2d65)
+        ;
+
+        
+    
+    
+            var circle_marker_5f2db16c08277df37cc31a2eb4fc148d = L.circleMarker(
+                [36.162, -86.781],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_abb7e7cb3a2f99f5a8c9db4968a04ccc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_00777a452b8526350c102052e119b607 = $(`<div id="html_00777a452b8526350c102052e119b607" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> Historic archives show no mention of this boulder; likely unnoticed by early settlers.         </div>`)[0];
+                popup_abb7e7cb3a2f99f5a8c9db4968a04ccc.setContent(html_00777a452b8526350c102052e119b607);
+            
+        
+
+        circle_marker_5f2db16c08277df37cc31a2eb4fc148d.bindPopup(popup_abb7e7cb3a2f99f5a8c9db4968a04ccc)
+        ;
+
+        
+    
+    
+            var circle_marker_cbaccd49c35d83c4519dc1af80a181be = L.circleMarker(
+                [35.227, -80.843],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_8e612ae6ddcd439f582144a95de2bac6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2f03435ba7f458dd1adb67d3775d9486 = $(`<div id="html_2f03435ba7f458dd1adb67d3775d9486" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Popular vantage point for frontier scouts and rumored to store hidden messages.         </div>`)[0];
+                popup_8e612ae6ddcd439f582144a95de2bac6.setContent(html_2f03435ba7f458dd1adb67d3775d9486);
+            
+        
+
+        circle_marker_cbaccd49c35d83c4519dc1af80a181be.bindPopup(popup_8e612ae6ddcd439f582144a95de2bac6)
+        ;
+
+        
+    
+    
+            var circle_marker_cbbafa294a75803698d829108164ea77 = L.circleMarker(
+                [39.104, -94.578],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_d54f598a862c452329cbbaea57c8d36d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_525bfe0817cc714777975627c21b01a7 = $(`<div id="html_525bfe0817cc714777975627c21b01a7" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 0<br>         <b>Top Terms:</b> route, diary, marker, crossing, served, navigation, early, fort, mention, resting<br>         <b>Description:</b> Early maps label this as 'Cairn Rock'; served as a crossing guide for wagon trails.         </div>`)[0];
+                popup_d54f598a862c452329cbbaea57c8d36d.setContent(html_525bfe0817cc714777975627c21b01a7);
+            
+        
+
+        circle_marker_cbbafa294a75803698d829108164ea77.bindPopup(popup_d54f598a862c452329cbbaea57c8d36d)
+        ;
+
+        
+    
+    
+            var circle_marker_d8a8c8e05655502d557b31b8e9cc929d = L.circleMarker(
+                [38.627, -90.199],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_4f88c970a1be811fa37b5e1bc48953a1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ca1f31bbb814f10350ac773c25136091 = $(`<div id="html_ca1f31bbb814f10350ac773c25136091" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> A minor landmark near an abandoned fort, occasionally referenced in 19th-century letters.         </div>`)[0];
+                popup_4f88c970a1be811fa37b5e1bc48953a1.setContent(html_ca1f31bbb814f10350ac773c25136091);
+            
+        
+
+        circle_marker_d8a8c8e05655502d557b31b8e9cc929d.bindPopup(popup_4f88c970a1be811fa37b5e1bc48953a1)
+        ;
+
+        
+    
+    
+            var circle_marker_303c6ff72f7a0a527e0b457db7970e72 = L.circleMarker(
+                [47.606, -122.332],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_8dd5b64e8ccf5e42868d7b9940ef0dc6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f704ca0970e9e7f528f9c9bd3052b97d = $(`<div id="html_f704ca0970e9e7f528f9c9bd3052b97d" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Mentioned in local legends as a place where travelers would pray for safe passage.         </div>`)[0];
+                popup_8dd5b64e8ccf5e42868d7b9940ef0dc6.setContent(html_f704ca0970e9e7f528f9c9bd3052b97d);
+            
+        
+
+        circle_marker_303c6ff72f7a0a527e0b457db7970e72.bindPopup(popup_8dd5b64e8ccf5e42868d7b9940ef0dc6)
+        ;
+
+        
+    
+    
+            var circle_marker_4805bb4ba9a1040d3db82fa5c7f5b7e8 = L.circleMarker(
+                [46.808, -100.784],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_5e59d67ebdec667c864600f472081fca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e1a3d28da84c085bf4ca57e0da0d85f = $(`<div id="html_0e1a3d28da84c085bf4ca57e0da0d85f" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Ancient petroglyphs suggest usage by precolonial tribes as a ceremonial altar.         </div>`)[0];
+                popup_5e59d67ebdec667c864600f472081fca.setContent(html_0e1a3d28da84c085bf4ca57e0da0d85f);
+            
+        
+
+        circle_marker_4805bb4ba9a1040d3db82fa5c7f5b7e8.bindPopup(popup_5e59d67ebdec667c864600f472081fca)
+        ;
+
+        
+    
+    
+            var circle_marker_0fba0bc276f27db31af237c714235019 = L.circleMarker(
+                [39.952, -75.165],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_de0c1ef483a920ee99d92ecff15d621a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fc5c4d7be832984f3154e9c0253d6243 = $(`<div id="html_fc5c4d7be832984f3154e9c0253d6243" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> Archived references to geological expeditions examining unique rock strata in this region.         </div>`)[0];
+                popup_de0c1ef483a920ee99d92ecff15d621a.setContent(html_fc5c4d7be832984f3154e9c0253d6243);
+            
+        
+
+        circle_marker_0fba0bc276f27db31af237c714235019.bindPopup(popup_de0c1ef483a920ee99d92ecff15d621a)
+        ;
+
+        
+    
+    
+            var circle_marker_b8eb4b18ce7ede6ea11b1ba509ecc6b6 = L.circleMarker(
+                [29.424, -98.494],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_9e58ee7529aa22a623ebbea18e08af94 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f9d368fed66e69fb4ddad80280a7cd24 = $(`<div id="html_f9d368fed66e69fb4ddad80280a7cd24" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 0<br>         <b>Top Terms:</b> route, diary, marker, crossing, served, navigation, early, fort, mention, resting<br>         <b>Description:</b> A route marker noted in diaries from settlers migrating to the southern territories.         </div>`)[0];
+                popup_9e58ee7529aa22a623ebbea18e08af94.setContent(html_f9d368fed66e69fb4ddad80280a7cd24);
+            
+        
+
+        circle_marker_b8eb4b18ce7ede6ea11b1ba509ecc6b6.bindPopup(popup_9e58ee7529aa22a623ebbea18e08af94)
+        ;
+
+        
+    
+    
+            var circle_marker_8d375a37eb26dbc7e42b503a1d7b0004 = L.circleMarker(
+                [32.777, -96.797],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_fe30ec5e800fcdbd3fbdc5a3dcf1207e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7779e6459f98756dfab055ade9384a2f = $(`<div id="html_7779e6459f98756dfab055ade9384a2f" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> Associated with a local myth about buried treasure; repeated references in old newspapers.         </div>`)[0];
+                popup_fe30ec5e800fcdbd3fbdc5a3dcf1207e.setContent(html_7779e6459f98756dfab055ade9384a2f);
+            
+        
+
+        circle_marker_8d375a37eb26dbc7e42b503a1d7b0004.bindPopup(popup_fe30ec5e800fcdbd3fbdc5a3dcf1207e)
+        ;
+
+        
+    
+    
+            var circle_marker_faf79d243d13a2659798f5396a149192 = L.circleMarker(
+                [44.052, -123.087],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_a65bd8f541a1230d1527eb112ff0aa5a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e2fc1753afb2953d4cb283acdc126ed = $(`<div id="html_6e2fc1753afb2953d4cb283acdc126ed" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> Mentioned only once in a 19th-century travel log as 'the big stone near farmland'.         </div>`)[0];
+                popup_a65bd8f541a1230d1527eb112ff0aa5a.setContent(html_6e2fc1753afb2953d4cb283acdc126ed);
+            
+        
+
+        circle_marker_faf79d243d13a2659798f5396a149192.bindPopup(popup_a65bd8f541a1230d1527eb112ff0aa5a)
+        ;
+
+        
+    
+    
+            var circle_marker_a6c5b4969634c993a1d59240ae306560 = L.circleMarker(
+                [39.146, -75.524],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_0432d208de77977475c6ab1ae63338af = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a88343f5b4528dfdd165684c9cacd740 = $(`<div id="html_a88343f5b4528dfdd165684c9cacd740" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Found in dense forest, rumored to be a beacon for runaway slaves on the Underground Railroad.         </div>`)[0];
+                popup_0432d208de77977475c6ab1ae63338af.setContent(html_a88343f5b4528dfdd165684c9cacd740);
+            
+        
+
+        circle_marker_a6c5b4969634c993a1d59240ae306560.bindPopup(popup_0432d208de77977475c6ab1ae63338af)
+        ;
+
+        
+    
+    
+            var circle_marker_5c868472a9c3cb88e3c860a168c19660 = L.circleMarker(
+                [34.42, -119.698],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_68bca2f5bb3f0ca15e5cdb17e89ac2d4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_17972c296a093d5eb823e32fb35094d3 = $(`<div id="html_17972c296a093d5eb823e32fb35094d3" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Cattle herders used it as a waypoint on a seasonal migration route, according to ranchers' archives.         </div>`)[0];
+                popup_68bca2f5bb3f0ca15e5cdb17e89ac2d4.setContent(html_17972c296a093d5eb823e32fb35094d3);
+            
+        
+
+        circle_marker_5c868472a9c3cb88e3c860a168c19660.bindPopup(popup_68bca2f5bb3f0ca15e5cdb17e89ac2d4)
+        ;
+
+        
+    
+    
+            var circle_marker_d6d1f5b10ba3f8173c8a61f2061226ce = L.circleMarker(
+                [38.581, -121.494],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_56b06d27188c9c23428edaf8771d0f9d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0eed3b93deef3e975ddc612a9266c2a7 = $(`<div id="html_0eed3b93deef3e975ddc612a9266c2a7" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> In 20th-century postcards, depicted as a scenic overlook near a popular hiking trail.         </div>`)[0];
+                popup_56b06d27188c9c23428edaf8771d0f9d.setContent(html_0eed3b93deef3e975ddc612a9266c2a7);
+            
+        
+
+        circle_marker_d6d1f5b10ba3f8173c8a61f2061226ce.bindPopup(popup_56b06d27188c9c23428edaf8771d0f9d)
+        ;
+
+        
+    
+    
+            var circle_marker_2e47804fcf9da6c041d5c7ccd4fdb3c0 = L.circleMarker(
+                [36.85, -76.285],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_1054cb288b48d645a59004c44ab56f46 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05b968ccf1a19d97a7453778e6489daa = $(`<div id="html_05b968ccf1a19d97a7453778e6489daa" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Traces of paint found on the surface; possibly used in local festivals or gatherings.         </div>`)[0];
+                popup_1054cb288b48d645a59004c44ab56f46.setContent(html_05b968ccf1a19d97a7453778e6489daa);
+            
+        
+
+        circle_marker_2e47804fcf9da6c041d5c7ccd4fdb3c0.bindPopup(popup_1054cb288b48d645a59004c44ab56f46)
+        ;
+
+        
+    
+    
+            var circle_marker_c0a93a0b1b40c00e1da9e0b74499fa16 = L.circleMarker(
+                [43.161, -77.61],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_b15116c6ce301abb2ce4e84f03918b69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ff9eaa6e02967f99e5f133705735f2e0 = $(`<div id="html_ff9eaa6e02967f99e5f133705735f2e0" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 2<br>         <b>Top Terms:</b> glacial, historical, geological, reference, farmland, field, usage, near, reported, rest<br>         <b>Description:</b> Glacial erratic of basalt composition, with minimal historical references beyond geological surveys.         </div>`)[0];
+                popup_b15116c6ce301abb2ce4e84f03918b69.setContent(html_ff9eaa6e02967f99e5f133705735f2e0);
+            
+        
+
+        circle_marker_c0a93a0b1b40c00e1da9e0b74499fa16.bindPopup(popup_b15116c6ce301abb2ce4e84f03918b69)
+        ;
+
+        
+    
+    
+            var circle_marker_38ef4002ec4f98ee6b0d5db233496c6d = L.circleMarker(
+                [37.774, -122.419],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_4bd4f4ac6a9fd9dbaf65065b5b49b55e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_39bb62a92d4dc2fd3722ae0300876f8d = $(`<div id="html_39bb62a92d4dc2fd3722ae0300876f8d" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 0<br>         <b>Top Terms:</b> route, diary, marker, crossing, served, navigation, early, fort, mention, resting<br>         <b>Description:</b> Cited by multiple explorers as a rendezvous point; appears on early 1800s navigation charts.         </div>`)[0];
+                popup_4bd4f4ac6a9fd9dbaf65065b5b49b55e.setContent(html_39bb62a92d4dc2fd3722ae0300876f8d);
+            
+        
+
+        circle_marker_38ef4002ec4f98ee6b0d5db233496c6d.bindPopup(popup_4bd4f4ac6a9fd9dbaf65065b5b49b55e)
+        ;
+
+        
+    
+    
+            var circle_marker_cfb41dcfbf6ab6b4696c1c46d30e0004 = L.circleMarker(
+                [44.518, -88.019],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_01e64c24f3e0f0b261bb4c2e72f9335e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_682278723287912113523c76647210c2 = $(`<div id="html_682278723287912113523c76647210c2" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Logging company records mention workers resting here; no other historical significance noted.         </div>`)[0];
+                popup_01e64c24f3e0f0b261bb4c2e72f9335e.setContent(html_682278723287912113523c76647210c2);
+            
+        
+
+        circle_marker_cfb41dcfbf6ab6b4696c1c46d30e0004.bindPopup(popup_01e64c24f3e0f0b261bb4c2e72f9335e)
+        ;
+
+        
+    
+    
+            var circle_marker_0459e0dc01650dd2a2c3683529d19cd7 = L.circleMarker(
+                [39.284, -76.62],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_2dab955199514cde4f78038b29b9fd3a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2594f90c397f2d9be16ecb548dac9fe = $(`<div id="html_f2594f90c397f2d9be16ecb548dac9fe" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Featured in a famous photograph from the Civil War era, rumored to be a hidden vantage spot.         </div>`)[0];
+                popup_2dab955199514cde4f78038b29b9fd3a.setContent(html_f2594f90c397f2d9be16ecb548dac9fe);
+            
+        
+
+        circle_marker_0459e0dc01650dd2a2c3683529d19cd7.bindPopup(popup_2dab955199514cde4f78038b29b9fd3a)
+        ;
+
+        
+    
+    
+            var circle_marker_5be3e0ecef89ac02804f5723ad91ab50 = L.circleMarker(
+                [43.073, -89.401],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_0fe266c9782356c9655adfce63355f61 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5f7c906cf54f2b8eda0d51325ba8097 = $(`<div id="html_e5f7c906cf54f2b8eda0d51325ba8097" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Local legends say it marks the burial site of a revered medicine man; debated by historians.         </div>`)[0];
+                popup_0fe266c9782356c9655adfce63355f61.setContent(html_e5f7c906cf54f2b8eda0d51325ba8097);
+            
+        
+
+        circle_marker_5be3e0ecef89ac02804f5723ad91ab50.bindPopup(popup_0fe266c9782356c9655adfce63355f61)
+        ;
+
+        
+    
+    
+            var circle_marker_56b8cad8342f462da27a9d3c9fefe745 = L.circleMarker(
+                [46.251, -96.605],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_ef55a440806bfd1631a092c8655219e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fe4438a485d564111fe9499148f46084 = $(`<div id="html_fe4438a485d564111fe9499148f46084" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 2<br>         <b>Top Terms:</b> glacial, historical, geological, reference, farmland, field, usage, near, reported, rest<br>         <b>Description:</b> Geological anomaly with striations indicating ancient glacial movement; no cultural references.         </div>`)[0];
+                popup_ef55a440806bfd1631a092c8655219e9.setContent(html_fe4438a485d564111fe9499148f46084);
+            
+        
+
+        circle_marker_56b8cad8342f462da27a9d3c9fefe745.bindPopup(popup_ef55a440806bfd1631a092c8655219e9)
+        ;
+
+        
+    
+    
+            var circle_marker_4ad3a26485725d1f01b9334e41132e54 = L.circleMarker(
+                [45.783, -108.505],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_fd59d63e4301958427f650bd8bfde40f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c59e96bb003e3888c2584c9f52e181ff = $(`<div id="html_c59e96bb003e3888c2584c9f52e181ff" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Some evidence of 17th-century inscriptions carved by French trappers; detail remains unclear.         </div>`)[0];
+                popup_fd59d63e4301958427f650bd8bfde40f.setContent(html_c59e96bb003e3888c2584c9f52e181ff);
+            
+        
+
+        circle_marker_4ad3a26485725d1f01b9334e41132e54.bindPopup(popup_fd59d63e4301958427f650bd8bfde40f)
+        ;
+
+        
+    
+    
+            var circle_marker_0ec769cca7f84f62bd871efea403d5c7 = L.circleMarker(
+                [33.448, -112.074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_2ab833234dd09c6fbc1ca81ae144c2e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ebad452e3cc7c79783786dd4310eb530 = $(`<div id="html_ebad452e3cc7c79783786dd4310eb530" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> Historic wagon trail diaries mention 'the shining boulder' due to its reflective quartz veins.         </div>`)[0];
+                popup_2ab833234dd09c6fbc1ca81ae144c2e3.setContent(html_ebad452e3cc7c79783786dd4310eb530);
+            
+        
+
+        circle_marker_0ec769cca7f84f62bd871efea403d5c7.bindPopup(popup_2ab833234dd09c6fbc1ca81ae144c2e3)
+        ;
+
+        
+    
+    
+            var circle_marker_45317f14819923c6c7788dfaeedb82c9 = L.circleMarker(
+                [41.499, -81.694],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_d36ba342e27979bd111710d4646e7688 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ca008d7ab423fd6184564a89b4551570 = $(`<div id="html_ca008d7ab423fd6184564a89b4551570" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> Fort records from 1812 identify this rock as 'Checkstone'; possibly used for supply inventory points.         </div>`)[0];
+                popup_d36ba342e27979bd111710d4646e7688.setContent(html_ca008d7ab423fd6184564a89b4551570);
+            
+        
+
+        circle_marker_45317f14819923c6c7788dfaeedb82c9.bindPopup(popup_d36ba342e27979bd111710d4646e7688)
+        ;
+
+        
+    
+    
+            var circle_marker_42385b0590d0a05490539dc9b424a4c9 = L.circleMarker(
+                [40.267, -86.134],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_109b83cd2d4bccaac159d3c0543a645b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_23fc718455fc1205e254ce68a5d9709d = $(`<div id="html_23fc718455fc1205e254ce68a5d9709d" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> 1<br>         <b>Top Terms:</b> boulder, rock, early, mention, historic, farmland, reference, record, mentioned, near<br>         <b>Description:</b> Limestone boulder overshadowed by farmland expansions; briefly documented in modern land surveys.         </div>`)[0];
+                popup_109b83cd2d4bccaac159d3c0543a645b.setContent(html_23fc718455fc1205e254ce68a5d9709d);
+            
+        
+
+        circle_marker_42385b0590d0a05490539dc9b424a4c9.bindPopup(popup_109b83cd2d4bccaac159d3c0543a645b)
+        ;
+
+        
+    
+    
+            var circle_marker_96e04f1e3442d2ec2df26ba61284d70e = L.circleMarker(
+                [42.732, -84.555],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b58d66dfe1911be0e3ff625a4587f7bd);
+        
+    
+        var popup_c85d12d67a9fd991b915256fd2f11d06 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c402fcba088514ba5cbeb639c3f83cf5 = $(`<div id="html_c402fcba088514ba5cbeb639c3f83cf5" style="width: 100.0%; height: 100.0%;">         <b>Cluster:</b> -1<br>         <b>Top Terms:</b> local, used, rumored, near, possibly, ceremonial, featured, revered, landmark, popular<br>         <b>Description:</b> Regarded by local anglers as a fishing landmark near the confluence of two major rivers.         </div>`)[0];
+                popup_c85d12d67a9fd991b915256fd2f11d06.setContent(html_c402fcba088514ba5cbeb639c3f83cf5);
+            
+        
+
+        circle_marker_96e04f1e3442d2ec2df26ba61284d70e.bindPopup(popup_c85d12d67a9fd991b915256fd2f11d06)
+        ;
+
+        
+    
+</script>
+</html>
